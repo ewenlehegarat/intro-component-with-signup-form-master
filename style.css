@@ -93,6 +93,9 @@ input{
     padding: 15px 0 15px 30px;
     font-size: 14px;
     font-weight: 800;
+    border: none;
+    border:solid 1px #ccc;
+    border-radius: 5px;
 }
 
 .right_bot p{
