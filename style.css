@@ -94,7 +94,7 @@ input{
     font-size: 14px;
     font-weight: 800;
     border: none;
-    border:solid 1px #ccc;
+    border: solid 1px #ccc;
     border-radius: 5px;
 }
 
@@ -107,4 +107,50 @@ input{
 .right_bot p span{
     color: hsla(0, 100%, 74%, 0.90);
     font-weight: 800;
+}
+
+.cannot_1{
+    margin-left: 306px;
+}
+
+.cannot_2{
+    margin-left: 306px;
+}
+
+.cannot_3{
+    margin-left: 305px;
+}
+
+.cannot_4{
+    margin-left: 312px;
+}
+
+.cannot_1, .cannot_2, .cannot_3, .cannot_4{
+    display: none;
+}
+
+.icon_error_1{
+    right: 460px;
+    top: 256px;
+}
+
+.icon_error_2{
+    right: 460px;
+    top: 365px;
+}
+
+.icon_error_3{
+    right: 460px;
+    top: 474px;
+}
+
+.icon_error_4{
+    right: 460px;
+    top: 583px;
+}
+
+.icon_error_1, .icon_error_2, .icon_error_3, .icon_error_4{
+    size: 50%;
+    position: absolute;
+    display: none;
 }

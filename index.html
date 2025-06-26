@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="/main.js" defer></script>
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 
@@ -28,9 +29,17 @@
       <div class="right_bot">
 
         <input type="text" name="First Name" id="First Name" aria-label="First Name" placeholder="First Name" required>
+        <p class="cannot_1">First Name cannot be empty</p>
+        <img src="/images/icon-error.svg" class="icon_error_1">
         <input type="text" name="Last Name" id="Last Name" aria-label="Last Name" placeholder="Last Name" required>
+        <p class="cannot_2">Last Name cannot be empty</p>
+        <img src="/images/icon-error.svg" class="icon_error_2">
         <input type="text" name="Email address" id="Email address" aria-label="Email address" placeholder="Email address" required>
+        <p class="cannot_3">Looks like this is not an email</p>
+        <img src="/images/icon-error.svg" class="icon_error_3">
         <input type="text" name="Password" id="Password" aria-label="Password" placeholder="Password" required>
+        <p class="cannot_4">Password cannot be empty</p>
+        <img src="/images/icon-error.svg" class="icon_error_4">
 
         <button>CLAIM YOUR FREE TRIAL</button>
 
